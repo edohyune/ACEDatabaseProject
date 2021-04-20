@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[PDA700] (
+    [company]     VARCHAR (2)     NOT NULL,
+    [flock]       VARCHAR (20)    NOT NULL,
+    [hh]          VARCHAR (20)    NOT NULL,
+    [wk]          INT             NOT NULL,
+    [bw_female]   DECIMAL (22, 3) NULL,
+    [bw_male]     DECIMAL (22, 3) NULL,
+    [un_female]   DECIMAL (22, 3) NULL,
+    [un_male]     DECIMAL (22, 3) NULL,
+    [lampu]       DECIMAL (22, 3) NULL,
+    [memo]        VARCHAR (200)   NULL,
+    [cid]         VARCHAR (50)    NULL,
+    [cdt]         DATETIME        NULL,
+    [mid]         VARCHAR (50)    NULL,
+    [mdt]         DATETIME        NULL,
+    [st_setting]  DECIMAL (22, 3) NULL,
+    [hr_fertile]  DECIMAL (22, 3) NULL,
+    [hr_hatch]    DECIMAL (22, 3) NULL,
+    [hr_cull_doc] DECIMAL (22, 3) NULL,
+    [hr_a]        DECIMAL (22, 3) NULL,
+    [hr_b]        DECIMAL (22, 3) NULL,
+    [hr_c]        DECIMAL (22, 3) NULL,
+    [hr_doc]      DECIMAL (22, 3) NULL
+);
+

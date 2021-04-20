@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[LEA310] (
+    [company]   VARCHAR (8)     NOT NULL,
+    [yymm]      VARCHAR (8)     NOT NULL,
+    [flock]     VARCHAR (20)    NOT NULL,
+    [hh]        VARCHAR (12)    NOT NULL,
+    [bg_female] DECIMAL (22, 3) NULL,
+    [bg_male]   DECIMAL (22, 3) NULL,
+    [in_female] DECIMAL (22, 3) NULL,
+    [in_male]   DECIMAL (22, 3) NULL,
+    [im_female] DECIMAL (22, 3) NULL,
+    [im_male]   DECIMAL (22, 3) NULL,
+    [oc_female] DECIMAL (22, 3) NULL,
+    [oc_male]   DECIMAL (22, 3) NULL,
+    [od_female] DECIMAL (22, 3) NULL,
+    [od_male]   DECIMAL (22, 3) NULL,
+    [af_female] DECIMAL (22, 3) NULL,
+    [af_male]   DECIMAL (22, 3) NULL,
+    [sl_female] DECIMAL (22, 3) NULL,
+    [sl_male]   DECIMAL (22, 3) NULL,
+    [om_female] DECIMAL (22, 3) NULL,
+    [om_male]   DECIMAL (22, 3) NULL,
+    [ed_female] DECIMAL (27, 3) NULL,
+    [ed_male]   DECIMAL (27, 3) NULL
+);
+

@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[CLA350] (
+    [company]         VARCHAR (2)     NOT NULL,
+    [yymm]            VARCHAR (10)    NOT NULL,
+    [kbn]             VARCHAR (2)     NOT NULL,
+    [flock]           VARCHAR (20)    NOT NULL,
+    [hh]              VARCHAR (20)    NOT NULL,
+    [hr]              VARCHAR (20)    NOT NULL,
+    [goods]           VARCHAR (20)    NULL,
+    [account]         VARCHAR (20)    NOT NULL,
+    [amt_amo]         DECIMAL (22, 3) NULL,
+    [amt_laying]      DECIMAL (22, 3) NULL,
+    [amt_bp_egg_farm] DECIMAL (22, 3) NULL,
+    [amt_he]          DECIMAL (22, 3) NULL,
+    [amt_doc_he]      DECIMAL (22, 3) NULL,
+    [amt_hatching]    DECIMAL (22, 3) NULL,
+    [amt_bp_egg_htc]  DECIMAL (22, 3) NULL,
+    [amt_doc_use]     DECIMAL (22, 3) NULL,
+    [amt_doc_prod]    DECIMAL (22, 3) NULL,
+    [qty_doc]         DECIMAL (22, 3) NULL,
+    [qty_ep]          DECIMAL (22, 3) NULL,
+    [qty_he]          DECIMAL (22, 3) NULL,
+    [qty_bp_egg_farm] DECIMAL (22, 3) NULL,
+    [qty_bp_egg_htc]  DECIMAL (22, 3) NULL
+);
+

@@ -1,0 +1,5 @@
+﻿CREATE FUNCTION fc_getdate() RETURNS varchar(10)
+AS
+BEGIN
+  return CONVERT(VARCHAR(10), GETDATE(), 121)
+END;

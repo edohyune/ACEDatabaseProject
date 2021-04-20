@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[PDA100] (
+    [pid]              INT             IDENTITY (1, 1) NOT NULL,
+    [company]          VARCHAR (2)     NOT NULL,
+    [flock]            VARCHAR (20)    NOT NULL,
+    [matl]             VARCHAR (20)    NOT NULL,
+    [hh]               VARCHAR (10)    NOT NULL,
+    [in_date]          DATE            NOT NULL,
+    [qty_female]       DECIMAL (15, 3) NULL,
+    [qty_male]         DECIMAL (15, 3) NULL,
+    [qty_female_bonus] DECIMAL (15, 3) NULL,
+    [qty_male_bonus]   DECIMAL (15, 3) NULL,
+    [bw_female]        DECIMAL (15, 3) NULL,
+    [bw_male]          DECIMAL (15, 3) NULL,
+    [uf_female]        DECIMAL (15, 3) NULL,
+    [uf_male]          DECIMAL (15, 3) NULL,
+    [plant]            VARCHAR (8)     NOT NULL,
+    [strain]           VARCHAR (10)    NULL,
+    [memo]             VARCHAR (MAX)   NULL,
+    [in_date_actual]   DATE            NULL,
+    [matl_out_no]      VARCHAR (20)    NULL,
+    [closed]           VARCHAR (1)     NULL,
+    [cid]              INT             NULL,
+    [cdt]              DATETIME        NULL,
+    [mid]              INT             NULL,
+    [mdt]              DATETIME        NULL
+);
+

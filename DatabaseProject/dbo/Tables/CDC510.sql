@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[CDC510] (
+    [company]         VARCHAR (2)     NOT NULL,
+    [flock]           VARCHAR (20)    NOT NULL,
+    [hh]              VARCHAR (10)    NOT NULL,
+    [strain]          VARCHAR (5)     NOT NULL,
+    [loc]             VARCHAR (10)    NULL,
+    [date_closed]     DATE            NULL,
+    [date_chick_in]   DATE            NULL,
+    [date_ep_start]   DATE            NULL,
+    [date_hatch]      DATE            NULL,
+    [ave]             DECIMAL (15, 3) NULL,
+    [date_ep]         DATE            NULL,
+    [wk5p]            DECIMAL (15, 3) NULL,
+    [qtyEpCumm5p]     DECIMAL (15, 3) NULL,
+    [qtyPs5p]         DECIMAL (15, 3) NULL,
+    [rate5p]          DECIMAL (15, 3) NULL,
+    [w1_ave]          DECIMAL (15, 3) NULL,
+    [w1_date_ep]      DATE            NULL,
+    [w1_wk5p]         DECIMAL (15, 3) NULL,
+    [w1_qtyEpCumm5p]  DECIMAL (15, 3) NULL,
+    [w1_qtyPs5p]      DECIMAL (15, 3) NULL,
+    [w1_qtyPs5p_male] DECIMAL (15, 3) NULL,
+    [w1_rate5p]       DECIMAL (15, 3) NULL,
+    [stat]            VARCHAR (20)    NULL
+);
+
